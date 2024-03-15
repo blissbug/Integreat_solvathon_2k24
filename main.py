@@ -37,6 +37,7 @@ def predict_api():
         return jsonify({'Sales Prediction': 'Yes, Purchaser' })
     else:
         return jsonify({'Sales Prediction': 'No, Not a Purchaser' })
+    
 
 if __name__ == "__main__":
     app.run(debug=True,use_reloader=False)
